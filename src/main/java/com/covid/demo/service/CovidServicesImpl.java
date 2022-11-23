@@ -16,7 +16,6 @@ public class CovidServicesImpl implements CovidServices {
 	@Override
 	public CountryEntity getCountry(String code) {
 		Map<String, CountryEntity> countries  = GetURLData.getUrlContents("https://api.covid19api.com/countries");  
-		// TODO Auto-generated method stub
 		return countries.get(code);
 	}
 
