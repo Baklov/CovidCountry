@@ -24,5 +24,4 @@ public class CovidServicesImpl implements CovidServices {
 		CountryEntity res = covidRepository.save(country);
 		return res;
 	}
-
 }
